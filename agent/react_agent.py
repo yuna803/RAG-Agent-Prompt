@@ -29,6 +29,5 @@ class ReactAgent:
 
 if __name__ == '__main__':
     agent = ReactAgent()
-
     for chunk in agent.execute_stream("扫地机器人在我在的地区怎么保养"):
-        print(chunk, end="", flush=False)
+        print(chunk, end="", flush=True)
