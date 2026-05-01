@@ -1,17 +1,16 @@
 """用户提问，搜索参考资料和提问一同返回给模型，让模型总结回复"""
 from xml.dom.minidom import Document
-
 from langchain_core.output_parsers import StrOutputParser
-
 from model.factory import chat_model
 from rag.vector_store import VectorStoreService
 from utils.prompt_loader import load_rag_prompts
 from langchain_core.prompts import PromptTemplate
 
 
-def print_prompt(prompt_text):
-    print(prompt_text.to_string())
-    return prompt_text
+# def print_prompt(prompt_text):
+#     print(prompt_text.to_string())
+#     return prompt_text
+
 class RagSummaryService(object):
     def __init__(self):
         self.vector_store=VectorStoreService ()
@@ -23,7 +22,9 @@ class RagSummaryService(object):
 
 
     def __init__chain(self):
-        chain =self.prompt_template | print_prompt | self.model | StrOutputParser ()
+        chain =(self.prompt_template
+                # | print_prompt
+                | self.model | StrOutputParser ())
         return chain
 
 

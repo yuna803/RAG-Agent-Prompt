@@ -9,7 +9,7 @@ from langgraph.types import Command
 from utils.logger_handler import logger
 
 
-@wrap_tool_call
+@wrap_tool_call     # 工具执行前的监控
 def monitor_tool(
         # 请求的数据封装
         request: ToolCallRequest,
@@ -32,7 +32,7 @@ def monitor_tool(
         raise e
 
 
-@before_model
+@before_model # 在模型执行前执行
 def log_before_model(
         state: AgentState,          # 整个Agent智能体中的状态记录
         runtime: Runtime,           # 记录了整个执行过程中的上下文信息

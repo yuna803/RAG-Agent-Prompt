@@ -1,11 +1,9 @@
 import os,hashlib
 from xml.dom.minidom import Document
-
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
-
 from utils.logger_handler import logger
-"""上传文件的工具"""
 
+"""上传文件的工具"""
 def get_file_md5_hex(file_path: str):
     """
     获取文件的md5值

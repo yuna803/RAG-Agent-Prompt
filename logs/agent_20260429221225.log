@@ -1,0 +1,41 @@
+2026-04-29 22:12:59,030 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-29 22:12:59,032 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 根据我所在的城市，教我如何保养扫地机器人
+2026-04-29 22:13:02,693 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-04-29 22:13:02,693 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-29 22:13:02,694 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-04-29 22:13:02,726 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-29 22:13:02,727 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 杭州
+2026-04-29 22:13:06,904 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-04-29 22:13:06,904 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '杭州'}
+2026-04-29 22:13:06,906 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-04-29 22:13:07,431 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-29 22:13:07,431 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市杭州天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-04-29 22:13:12,790 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-29 22:13:12,790 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人保养指南 中等湿度环境维护'}
+2026-04-29 22:13:16,289 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-29 22:13:17,225 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-29 22:13:17,226 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 在中等湿度环境中，应定期清理扫地机器人的尘盒、滤网和滚刷，避免潮湿导致灰尘结块；检查并擦干传感器和充电触点，防止受潮影响性能；存放时置于干燥通风处，避免长时间处于高湿状态。
+2026-04-29 22:36:24,929 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-29 22:36:24,931 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 推荐哪个牌子的扫地机器人
+2026-04-29 22:36:26,871 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-29 22:36:26,871 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人品牌推荐'}
+2026-04-29 22:36:28,362 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-29 22:36:28,609 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-29 22:36:28,609 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提及具体扫地机器人品牌推荐信息。
+2026-04-29 22:36:30,309 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-29 22:36:30,309 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '主流扫地机器人品牌对比'}
+2026-04-29 22:36:33,467 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-29 22:36:33,745 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-29 22:36:33,745 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提供具体主流扫地机器人品牌的对比信息。
+2026-04-29 22:36:58,850 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-29 22:36:58,851 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 大户型推荐哪种扫地机器人
+2026-04-29 22:37:00,261 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-29 22:37:00,261 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '大户型扫地机器人推荐'}
+2026-04-29 22:37:01,681 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-29 22:37:01,950 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-29 22:37:01,950 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 参考资料中未提及大户型扫地机器人的具体推荐信息。
+2026-04-29 22:37:03,649 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-29 22:37:03,650 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '大户型适用的扫地机器人选购指南'}
+2026-04-29 22:37:07,029 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-29 22:37:08,266 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-29 22:37:08,266 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 大户型适用的扫地机器人应具备大尘盒容量、长续航时间（建议2小时以上）、强吸力（2000Pa以上）、智能导航（如LDS激光导航或视觉导航）、支持分区清扫和虚拟墙功能，并优先选择支持自动回充及断点续扫的型号，以确保高效覆盖大面积区域。

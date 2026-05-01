@@ -1,0 +1,32 @@
+2026-04-30 09:58:12,066 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-30 09:58:12,066 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成我的使用报告
+2026-04-30 09:58:14,839 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-04-30 09:58:14,839 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:58:14,839 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-04-30 09:58:14,840 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-30 09:58:14,840 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1009
+2026-04-30 09:58:16,920 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-04-30 09:58:16,920 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:58:16,921 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-04-30 09:58:16,921 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-30 09:58:16,921 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-01
+2026-04-30 09:58:20,436 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-04-30 09:58:20,436 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-30 09:58:20,436 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-30 09:58:20,437 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-30 09:58:20,437 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-04-30 09:58:24,581 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-04-30 09:58:24,581 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1009', 'month': '2025-01'}
+2026-04-30 09:58:24,584 - agent - INFO - middleware.py:24 - [tool monitor]工具fetch_external_data调用成功
+2026-04-30 09:58:24,585 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有9条消息。
+2026-04-30 09:58:24,585 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | {"特征": "80㎡两居 | 养宠 | 仿实木", "效率": "宠物毛发清理:85%\\n自动回充成功率:92%", "耗材": "胶刷缠绕:中度\\n滤网更换:剩余30天", "对比": "养宠家庭中清洁效率处于中等水平"}
+2026-04-30 09:58:27,967 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-30 09:58:27,967 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '养宠家庭扫地机器人保养建议'}
+2026-04-30 09:58:31,817 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-30 09:58:31,818 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有11条消息。
+2026-04-30 09:58:31,818 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 养宠家庭使用扫地机器人需定期清理滚刷和边刷，防止宠物毛发缠绕；及时清空尘盒并清洗滤网，避免异味和细菌滋生；检查传感器是否被毛发或灰尘遮挡，确保正常运行；建议每周至少进行一次深度清洁维护。
+2026-04-30 09:58:34,656 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-30 09:58:34,656 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '仿实木地板清洁注意事项'}
+2026-04-30 09:58:38,419 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-30 09:58:38,419 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有13条消息。
+2026-04-30 09:58:38,419 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 仿实木地板清洁时应避免使用大量水，不可用湿拖把直接拖洗；建议使用拧干的软布或专用地板清洁剂擦拭；禁止使用酸碱性强的清洁剂、钢丝球或硬质刷子，以免损伤表面；日常可定期用吸尘器清除灰尘和颗粒物，防止刮花。

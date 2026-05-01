@@ -1,6 +1,6 @@
 from langchain.agents import create_agent
 from model.factory import chat_model
-from utils.prompt_loader import load_system_prompts
+# from utils.prompt_loader import load_system_prompts
 from agent.tools.agent_tools import *
 from agent.tools.middleware import *
 class ReactAgent:
@@ -29,5 +29,5 @@ class ReactAgent:
 
 if __name__ == '__main__':
     agent = ReactAgent()
-    for chunk in agent.execute_stream("扫地机器人在我在的地区怎么保养"):
+    for chunk in agent.execute_stream("给我生成我的使用报告"):
         print(chunk, end="", flush=True)
