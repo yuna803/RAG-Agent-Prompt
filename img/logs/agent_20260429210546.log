@@ -1,0 +1,17 @@
+2026-04-29 21:05:47,349 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-29 21:05:47,349 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 扫地机器人在我在的地区怎么保养
+2026-04-29 21:05:50,190 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-04-29 21:05:50,190 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-29 21:05:50,191 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-04-29 21:05:50,191 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-29 21:05:50,191 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 深圳
+2026-04-29 21:05:53,908 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-04-29 21:05:53,908 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '深圳'}
+2026-04-29 21:05:53,909 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-04-29 21:05:53,909 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-29 21:05:53,909 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市深圳天气为晴天，气温26摄氏度，空气湿度50%，南风1级，AQI21，最近6小时降雨概率极低
+2026-04-29 21:05:59,662 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-04-29 21:05:59,662 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '高湿度地区扫地机器人保养方法'}
+2026-04-29 21:06:24,640 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-04-29 21:06:24,640 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-29 21:06:24,641 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 在高湿度地区，应定期清理扫地机器人的尘盒、滤网和滚刷，保持设备干燥；使用后及时取出电池（若可拆卸）并存放于干燥通风处；避免长时间置于潮湿地面，建议配合除湿设备使用，以延长使用寿命。

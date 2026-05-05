@@ -1,0 +1,20 @@
+2026-04-29 21:58:17,524 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-04-29 21:58:17,524 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 给我生成使用报告
+2026-04-29 21:58:21,182 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_id
+2026-04-29 21:58:21,182 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-29 21:58:21,183 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_id调用成功
+2026-04-29 21:58:21,184 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-04-29 21:58:21,184 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 1005
+2026-04-29 21:58:22,969 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_current_month
+2026-04-29 21:58:22,969 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-29 21:58:22,969 - agent - INFO - middleware.py:24 - [tool monitor]工具get_current_month调用成功
+2026-04-29 21:58:22,970 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-04-29 21:58:22,970 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 2025-09
+2026-04-29 21:58:26,458 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fill_context_for_report
+2026-04-29 21:58:26,458 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-04-29 21:58:26,458 - agent - INFO - middleware.py:24 - [tool monitor]工具fill_context_for_report调用成功
+2026-04-29 21:58:26,459 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-04-29 21:58:26,459 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-04-29 21:58:28,992 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：fetch_external_data
+2026-04-29 21:58:28,992 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'user_id': '1005', 'month': '2025-09'}
+2026-04-29 21:58:28,993 - agent - ERROR - middleware.py:31 - 工具fetch_external_data调用失败，原因：'external_data_path'

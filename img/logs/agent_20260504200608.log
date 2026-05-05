@@ -1,0 +1,19 @@
+2026-05-04 20:06:09,747 - agent - INFO - history_handler.py:37 - [HistoryHandler] 会话历史文件已创建: E:\unser\Desktop\item_history_vector_V3\item\data/history\session_20260504_200609.json
+2026-05-04 22:39:56,041 - agent - INFO - history_handler.py:37 - [HistoryHandler] 会话历史文件已创建: E:\unser\Desktop\item_history_vector_V3\item\data/history\session_20260504_223956.json
+2026-05-04 22:40:10,376 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-04 22:40:10,376 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 你好
+2026-05-04 22:40:13,993 - agent - INFO - history_handler.py:67 - [HistoryHandler] JSON 记录已保存，共 1 轮
+2026-05-04 22:40:14,421 - agent - INFO - vector_store.py:38 - [HistoryVectorStore] 写入历史记录成功
+2026-05-04 22:41:41,359 - agent - INFO - history_handler.py:37 - [HistoryHandler] 会话历史文件已创建: E:\unser\Desktop\item_history_vector_V3\item\data/history\session_20260504_224141.json
+2026-05-04 22:41:54,646 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-04 22:41:54,647 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | shn
+2026-05-04 22:41:56,735 - agent - INFO - history_handler.py:37 - [HistoryHandler] 会话历史文件已创建: E:\unser\Desktop\item_history_vector_V3\item\data/history\session_20260504_224156.json
+2026-05-04 22:42:00,379 - agent - INFO - history_handler.py:67 - [HistoryHandler] JSON 记录已保存，共 1 轮
+2026-05-04 22:42:00,868 - agent - INFO - vector_store.py:38 - [HistoryVectorStore] 写入历史记录成功
+2026-05-04 22:42:09,318 - agent - INFO - history_handler.py:37 - [HistoryHandler] 会话历史文件已创建: E:\unser\Desktop\item_history_vector_V3\item\data/history\session_20260504_224209.json
+2026-05-04 22:42:52,483 - agent - INFO - history_handler.py:37 - [HistoryHandler] 会话历史文件已创建: E:\unser\Desktop\item_history_vector_V3\item\data/history\session_20260504_224252.json
+2026-05-04 22:43:03,410 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-04 22:43:03,411 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 小徐可以给我口吗
+2026-05-04 22:43:07,726 - agent - INFO - history_handler.py:67 - [HistoryHandler] JSON 记录已保存，共 1 轮
+2026-05-04 22:43:08,212 - agent - INFO - vector_store.py:38 - [HistoryVectorStore] 写入历史记录成功
+2026-05-04 22:45:05,319 - agent - INFO - history_handler.py:37 - [HistoryHandler] 会话历史文件已创建: E:\unser\Desktop\item_history_vector_V3\item\data/history\session_20260504_224505.json
